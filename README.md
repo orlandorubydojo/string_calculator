@@ -6,20 +6,25 @@ popular kata and should be fun to do.  This Kata was taken from http://osherove.
 
 We will build the string calculator with the following rules:
 
-- Create a method that will add a string of numbers
-  - The method will take in single or multiple numbers and will return their sum. If
-    an empty string is provided then it will return 0.
-    e.g. " " => 0
-         "1" => 1
-         "1,2" => 3
-- The method must be able to handle an unknown amount of numbers
-- The method must be able to handle new lines between numbers (instead of commas)
+1)Create a method that will add a string of numbers
+  The method will take in single or multiple numbers and will return their sum. If
+  an empty string is provided then it will return 0.
+  e.g.
+  " " => 0
+  "1" => 1
+  "1,2" => 3
+
+2)The method must be able to handle an unknown amount of numbers
+
+3)The method must be able to handle new lines between numbers (instead of commas)
   e.g. "1\n2\n3" => 6
-- The method must be able to support alternate delimiters.
+
+4)The method must be able to support alternate delimiters.
   To change a delimiter, the beginning of the string will contain a separate line that
   looks like this:   “//[delimiter]\n[numbers…]” for example “//;\n1;2”
   should return three where the default delimiter is ‘;’ .
-- If a negative number is passed then it should throw an exception "Negatives Not Allowed". Show
+
+5)If a negative number is passed then it should throw an exception "Negatives Not Allowed". Show
   the negatives numbers in the exception.
 
 Usage
