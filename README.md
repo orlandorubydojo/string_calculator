@@ -10,8 +10,8 @@ We will build the string calculator with the following rules:
   The method will take in single or multiple numbers and will return their sum. If
   an empty string is provided then it will return 0.
   e.g.
-  " " => 0
-  "1" => 1
+  " " => 0,
+  "1" => 1,
   "1,2" => 3
 
 2)The method must be able to handle an unknown amount of numbers
